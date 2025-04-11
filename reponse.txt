@@ -1,0 +1,59 @@
+1) git status ¯ permet de savoir quel fichier ou modification se trouve dans le working directory, le staging area ou le repository.
+ Dans notre cas, il se trouve toujours dans le working directory.
+
+2) Pour le README.md, on peut voir que le texte en rouge a chang‚ avec un texte en vert qui nous indique qu'il est maintenant dans la staging area et qu'il est bien un nouveau fichier.
+Quant au reponses.txt, il est en rouge car il se trouve toujours dans le working directory.
+
+3) Les ajouts se sont ajouter à la Staging area.
+
+4) message du commit "Premier_commit" du document reponse.txt.
+
+5) La commande "git log" permet de voir la liste des commit.
+
+6) La difference entre "git diff" et "git diff --staged" et que "git diff" donne les modifications qui se trouve dans le working directory et "git diff --staged" montre les modifications dans la staging area.
+
+7) "git statue" nous montre ou se trouve les fichiers dans la working area, staging area ou repositori, "git diff" permet de voir ce qui a ete modifier, "gitlog" voir le liste des commit, "git shox" affiche le commit avec son hash, le nom de l'auteur son mail, la date du commit et la description du commit est ce qui a ete retire ou ajouter.
+
+8) Apres ajout des fichiers:
+	git status
+	On branch develop
+	Changes to be committed:
+	  (use "git restore --staged <file>..." to unstage)
+	        new file:   README.md
+	        new file:   brouillon.txt
+	        new file:   fichier1.txt
+	        modified:   reponse.txt
+
+Apres avoir reset brouillon.txt:
+	git status
+	On branch develop
+	Changes to be committed:
+	  (use "git restore --staged <file>..." to unstage)
+	        new file:   README.md
+	        new file:   fichier1.txt
+	        modified:   reponse.txt
+	
+	Untracked files:
+	  (use "git add <file>..." to include in what will be committed)
+	        brouillon.txt
+
+9) "git reset" annule l'ajout du fichier dans la staging area et le remet dans la working area.
+
+10) on fait le commit defichier1.txt :
+	git commit -m Question_9-10 fichier1.txt
+	[develop f358c39] Question_9-10
+	 1 file changed, 1 insertion(+)
+	 create mode 100644 fichier1.txt
+
+et on fait un git status pour verifier que brouillon et bien dans dans la working area:
+	git status
+	On branch develop
+	Changes to be committed:
+	  (use "git restore --staged <file>..." to unstage)
+	        new file:   README.md
+	
+	Untracked files:
+	  (use "git add <file>..." to include in what will be committed)
+	        brouillon.txt
+
+
