@@ -1,7 +1,7 @@
 1) git status ¯ permet de savoir quel fichier ou modification se trouve dans le working directory, le staging area ou le repository.
  Dans notre cas, il se trouve toujours dans le working directory.
 
-2) Pour le README.md, on peut voir que le texte en rouge a chang‚ avec un texte en vert qui nous indique qu'il est maintenant dans la staging area et qu'il est bien un nouveau fichier.
+2) Pour le README.md, on peut voir que le texte en rouge a change avec un texte en vert qui nous indique qu'il est maintenant dans la staging area et qu'il est bien un nouveau fichier.
 Quant au reponses.txt, il est en rouge car il se trouve toujours dans le working directory.
 
 3) Les ajouts se sont ajouter à la Staging area.
@@ -57,5 +57,12 @@ et on fait un git status pour verifier que brouillon et bien dans dans la workin
 	        brouillon.txt
 
 11) Utilistaion de la commande "git log" pour verifier les commit et "git status" pour verifier que brouillon et toujours dans le working area.
+
+12) On utilise la commande "git log --branches --not --remotes" qui retourne que les commits qui n'ont pas ete push, si elle ne retourne rien cela veux donc dire que tous les commit sont passer.
+
+13) La commande utiliser est "git clone https://github.com/PaulineLam24/TP-Git.git" ce qui va venir copier le fichier "TP-Git" dans le fichier ou l'on se trouve. 
+
+14)
+
 
 
