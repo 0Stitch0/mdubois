@@ -56,6 +56,6 @@ et on fait un git status pour verifier que brouillon et bien dans dans la workin
 	  (use "git add <file>..." to include in what will be committed)
 	        brouillon.txt
 
-11) Utilistaion de la commande "git log".
+11) Utilistaion de la commande "git log" pour verifier les commit et "git status" pour verifier que brouillon et toujours dans le working area.
 
 
