@@ -62,7 +62,22 @@ et on fait un git status pour verifier que brouillon et bien dans dans la workin
 
 13) La commande utiliser est "git clone https://github.com/PaulineLam24/TP-Git.git" ce qui va venir copier le fichier "TP-Git" dans le fichier ou l'on se trouve. 
 
-14)
+14) On trouve le fichier "README.md", les commits trouver avec la commande "git log" :
+-Initial commit
+-Ajout dans README.md
+-Correctif README.md
+
+15) Entre les 2 commits "Initial commit" et "Ajout dans README.md" avec la commande "git diff 9b68 f7a7" il y a eu un ajout:
+"+# TP-Git
++# Ceci est un fichier README.md.."
+et entre les commits "Ajout dans README.md" et  "Correctif README.md" avce la commande "git diff f7a7 f813" on a  une suppresion et un ajout;
+ "
+ # TP-Git
+-# Ceci est un fichier README.md...
++
++Ceci est un fichier README.md..."
+
+
 
 
 
