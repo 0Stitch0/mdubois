@@ -56,4 +56,6 @@ et on fait un git status pour verifier que brouillon et bien dans dans la workin
 	  (use "git add <file>..." to include in what will be committed)
 	        brouillon.txt
 
+11) Utilistaion de la commande "git log".
+
 
